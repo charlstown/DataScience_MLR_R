@@ -2,12 +2,9 @@
 title: "Memoria Fundamentos de Analisis de Datos."
 author: "Carlos Grande Nuñez, Veronica Gomez Gomez y Pablo Olmos Martinez"
 date: "11/29/2019"
-output:
+output: 
   html_document:
-    theme: united
-    code_folding: "hide"
-    toc: yes
-    toc_float: yes
+    keep_md: true
 ---
 
 ---
@@ -18,6 +15,11 @@ Para la práctica hemos seleccionado una base de datos obtenida de Kaggle con lo
 
 La base de datos puede descargarse en el siguiente enlace: https://www.kaggle.com/swathiachath/kc-housesales-data
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-"
+)
+```
 
 Las librerias usadas para esta práctica son las siguientes:
 
