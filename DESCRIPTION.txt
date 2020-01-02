@@ -3,8 +3,7 @@ Version: 0.1
 Maintainer: Carlos Grande <@charlstown>
 Authors@R: Carlos Grande)
 Description: data study from a houses dataframe to train a multiple lineal regression model in R language. The data was selected from kaggle, a recollected database from King County district, washington state (USA). This database is public domain and contains a 21 parameters dataframe with 21613 houses.
-
-La base de datos puede descargarse en el siguiente enlace: https://www.kaggle.com/swathiachath/kc-housesales-data.
+You can download the dataset from this link: https://www.kaggle.com/swathiachath/kc-housesales-data.
 License: file LICENSE
 LazyData: true
 URL: https://github.com/hrbrmstr/ggalt
